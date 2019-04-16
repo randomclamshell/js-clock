@@ -1,12 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web|Yanone+Kaffeesatz");
 
 body {
-     display: block;
-	padding: 10px;
 	background-image: url(https://images.pexels.com/photos/315938/pexels-photo-315938.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	text-align: center;
 }
 
+.clock {
+     padding-top: 140px;
+}
 .clock span {
 	font-family: "Titillium Web", sans-serif;
      color: whitesmoke;
