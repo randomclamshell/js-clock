@@ -11,9 +11,9 @@ console.log("loaded");
           currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
 
           var amOrPm = (currentHours < 12) ? "AM" : "PM";
-          currentHours = (currentHours > 12) ? hours - 12 : currentHours;
-          currentHours = (currentHours === 0) ? 12 : currentHours;
 
+          currentHours = (currentHours > 12) ? currentHours - 12 : currentHours;
+          currentHours = (currentHours === 0) ? 12 : currentHours;
 
           var time = currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + amOrPm;
 
